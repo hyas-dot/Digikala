@@ -1,0 +1,145 @@
+@font-face {
+  font-family: digikala;
+  src: url(./public/font/digikala-variable.16j_2qc1xkb87.woff2);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: digikala;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+.header {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.searchbelt {
+  display: flex;
+  img {
+    width: 200px;
+    padding: 13px;
+  }
+  .search {
+    margin-top: 5px;
+    display: flex;
+    gap: 20px;
+    background-color: #f0f0f1;
+    width: 500px;
+    height: 40px;
+    padding-right: 20px;
+    padding-top: 5px;
+    border-radius: 50px;
+    color: #a2a2a2;
+  }
+  .search_icon {
+    padding-top: 4px;
+    svg {
+      width: 20px;
+    }
+  }
+  .searchtext {
+    padding: 4px;
+    font-size: 13px;
+  }
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.lefticon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 13px;
+  width: 200px;
+  margin-left: 20px;
+  .card_icon {
+    display: flex;
+    justify-content: center;
+
+    width: 40px;
+    height: 30px;
+    border-right: 1px solid #e0e0e2;
+  }
+
+  .login_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #e0e0e2;
+    border-radius: 6px;
+
+    a {
+      font-size: 13px;
+      color: black;
+      padding-left: 5px;
+      text-decoration: none;
+    }
+    svg {
+      display: block;
+      width: 30px;
+    }
+  }
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 6px 3px -7px gray;
+  .navlinks {
+    font-size: 12px;
+    display: flex;
+    gap: 15px;
+    svg {
+      width: 17px;
+    }
+    .main-nav {
+      width: 140px;
+      font-weight: bold;
+      border-left: 2px solid #e0e0e2;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #62666d;
+      text-decoration: none;
+    }
+    .lastnavlink {
+      width: 120px;
+      border-left: 2px solid #e0e0e2;
+    }
+  }
+  .address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    width: 120px;
+    height: 35px;
+    background-color: #f57f1712;
+    color: #f57f17;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 5px 20px;
+    svg {
+      width: 15px;
+    }
+  }
+}
+.root {
+  height: 900px;
+  width: 100%;
+  background-color: plum;
+}
