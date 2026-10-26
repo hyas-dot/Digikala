@@ -1,0 +1,35 @@
+@font-face {
+  font-family: digikala;
+  src: url(./public/font/digikala-variable.16j_2qc1xkb87.woff2);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: digikala;
+}
+.root {
+  width: 25%;
+  height: 380px;
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
+  margin: 170px auto;
+  .main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+
+    img {
+      width: 170px;
+      margin-left: 70px;
+    }
+  }
+  h5 {
+    margin: 10px;
+  }
+}

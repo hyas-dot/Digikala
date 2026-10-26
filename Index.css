@@ -38,6 +38,7 @@ header {
     border-radius: 50px;
     color: #a2a2a2;
   }
+
   .search_icon {
     padding-top: 4px;
     svg {
@@ -45,7 +46,10 @@ header {
     }
   }
   .searchtext {
-    padding: 4px;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    outline: none;
     font-size: 13px;
   }
 }
@@ -81,7 +85,8 @@ header {
     border-radius: 6px;
 
     a {
-      font-size: 13px;
+      font-size: 11px;
+      font-weight: bold;
       color: black;
       padding-left: 5px;
       text-decoration: none;
@@ -141,5 +146,180 @@ header {
 .root {
   height: 900px;
   width: 100%;
-  background-color: plum;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.root {
+  width: 87%;
+  margin: 17px auto;
+
+  .bubbles {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      width: 57px;
+      margin: 0px 13px;
+    }
+    .svg {
+      position: relative;
+      right: 13px;
+
+      background-color: #f0f0f1;
+      width: 56px;
+      height: 56px;
+      border-radius: 30px;
+      align-items: center;
+      margin: 0px;
+      svg {
+        position: relative;
+        top: 15px;
+        width: inherit;
+      }
+    }
+    p {
+      color: #3f4064;
+      margin-top: 0;
+      width: 87px;
+      font-size: 13px;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  .shegeft {
+    height: 300px;
+    width: 100%;
+    background-color: #d52e4e;
+    margin: 20px auto;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .right {
+      width: 12%;
+      height: inherit;
+      border-radius: 0 16px 16px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .clock {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        .hour {
+          color: #23254e;
+          font-size: 14px;
+          font-weight: bold;
+          width: 25px;
+          height: 25px;
+          border-radius: 5px;
+          background-color: whitesmoke;
+          text-align: center;
+        }
+      }
+      .view {
+        margin: 20px;
+        background-color: #f2f3f5;
+        border-radius: 8px;
+        padding: 6px 10px;
+        width: 116px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        a {
+          color: #23254e;
+          font-size: 12px;
+          font-weight: bold;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+    }
+    .left {
+      width: 88%;
+      height: 90%;
+      border-radius: 0 8px 8px 0;
+      h5 {
+        color: #424242;
+      }
+      .priceContainer {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 6px;
+        .price1 {
+          font-size: 13px;
+          text-decoration: line-through;
+        }
+        .percent {
+          color: white;
+          width: 40px;
+          font-weight: bold;
+          font-size: 13px;
+          background-color: #d32f2f;
+          border-radius: 16px;
+        }
+        .price2 {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  .cards {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      width: 320px;
+      border-radius: 16px;
+    }
+  }
+}
+
+.productSwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.productSwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productSwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
