@@ -300,6 +300,56 @@ header {
       border-radius: 16px;
     }
   }
+  .tahvilroot {
+    width: 100%;
+    margin: 30px auto;
+    height: 430px;
+    background-color: #fffae6;
+    border-radius: 16px;
+    .middle {
+      width: 98%;
+      height: inherit;
+      margin: 0px auto;
+      padding: 20px;
+    }
+    .top {
+      .tahvilbelt {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        border-radius: 8px;
+        background-color: #f54f171a;
+        .leftTahvil {
+          a {
+            padding-left: 10px;
+            color: #f57f17;
+            text-decoration: none;
+            font-size: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+          }
+        }
+        .rightTahvil {
+          display: flex;
+          justify-content: cener;
+          align-items: center;
+          padding-right: 13px;
+          gap: 6px;
+          font-size: 13px;
+          font-weight: bold;
+          svg {
+            color: #f57f17;
+          }
+        }
+      }
+    }
+    .bottom {
+      background-color: red;
+    }
+  }
 }
 
 .productSwiper {
@@ -318,6 +368,27 @@ header {
 }
 
 .productSwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.yellowSwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.yellowSwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellowSwiper .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
