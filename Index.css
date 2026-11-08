@@ -210,7 +210,7 @@ header {
   .shegeft {
     height: 300px;
     width: 100%;
-    background-color: #d52e4e;
+
     margin: 20px auto;
     border-radius: 16px;
     display: flex;
@@ -272,6 +272,12 @@ header {
       }
     }
   }
+  #shegeftred {
+    background-color: #d52e4e;
+  }
+  #shegeftgreen {
+    background-color: #70ba2a;
+  }
   .priceContainer {
     display: flex;
     flex-direction: row-reverse;
@@ -311,7 +317,7 @@ header {
   .tahvilroot {
     width: 100%;
     margin: 30px auto;
-    height: 466px;
+    height: 480px;
     background-color: #fffae6;
     border-radius: 16px;
     .middle {
@@ -370,7 +376,6 @@ header {
     .bottom {
       margin-top: 30px;
       .tahvilImg {
-        border-radius: 16px;
         h5 {
           font-size: 14px;
         }
@@ -410,10 +415,8 @@ header {
   text-align: center;
   font-size: 18px;
   background: white;
-  height: 296px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 300px;
+
   border-radius: 10px;
 }
 
