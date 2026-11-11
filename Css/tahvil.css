@@ -1,0 +1,103 @@
+@font-face {
+  font-family: digikala;
+  src: url(/public/font/digikala-variable.16j_2qc1xkb87.woff2);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: digikala;
+}
+.root {
+  width: 87%;
+  margin: 17px auto;
+  .tahvilroot {
+    width: 100%;
+    margin: 30px auto;
+    height: 480px;
+    background-color: #fffae6;
+    border-radius: 16px;
+    .middle {
+      width: 98%;
+      height: inherit;
+      margin: 0px auto;
+      padding: 20px;
+    }
+    .top {
+      .main {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        font-size: 19px;
+        font-weight: bold;
+
+        img {
+          width: 80px;
+        }
+      }
+      .tahvilbelt {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        border-radius: 8px;
+        background-color: #f54f171a;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        .leftTahvil {
+          a {
+            padding-left: 10px;
+            color: #f57f17;
+            text-decoration: none;
+            font-size: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+          }
+        }
+        .rightTahvil {
+          display: flex;
+          justify-content: cener;
+          align-items: center;
+          padding-right: 13px;
+          gap: 6px;
+          font-size: 13px;
+          font-weight: bold;
+          svg {
+            color: #f57f17;
+          }
+        }
+      }
+    }
+    .bottom {
+      margin-top: 30px;
+      .tahvilImg {
+        h5 {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+.yellowSwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.yellowSwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  height: 300px;
+
+  border-radius: 10px;
+}
+
+.yellowSwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}

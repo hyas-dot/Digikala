@@ -1,0 +1,129 @@
+@font-face {
+  font-family: digikala;
+  src: url(/public/font/digikala-variable.16j_2qc1xkb87.woff2);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: digikala;
+}
+.root {
+  height: 300px;
+  width: 100%;
+  .shegeft {
+    height: 300px;
+    width: 100%;
+
+    margin: 20px auto;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .right {
+      width: 12%;
+      height: inherit;
+      border-radius: 0 16px 16px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .clock {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        .hour {
+          color: #23254e;
+          font-size: 14px;
+          font-weight: bold;
+          width: 25px;
+          height: 25px;
+          border-radius: 5px;
+          background-color: whitesmoke;
+          text-align: center;
+        }
+      }
+      .view {
+        margin: 20px;
+        background-color: #f2f3f5;
+        border-radius: 8px;
+        padding: 6px 10px;
+        width: 116px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        a {
+          color: #23254e;
+          font-size: 12px;
+          font-weight: bold;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+    }
+    .left {
+      width: 88%;
+      height: 90%;
+      border-radius: 0 8px 8px 0;
+      h5 {
+        color: #424242;
+      }
+    }
+  }
+  #shegeftred {
+    background-color: #d52e4e;
+  }
+  #shegeftgreen {
+    background-color: #70ba2a;
+  }
+  .priceContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 6px;
+    .price1 {
+      font-size: 13px;
+      text-decoration: line-through #62666d;
+      color: #62666d;
+    }
+    .percent {
+      color: white;
+      width: 40px;
+      font-weight: bold;
+      font-size: 13px;
+      background-color: #d32f2f;
+      border-radius: 16px;
+    }
+  }
+  .price2 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+.productSwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.productSwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productSwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
