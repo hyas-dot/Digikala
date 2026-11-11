@@ -15,7 +15,46 @@
     margin-top: 20px;
     border: 1px solid #e0e0e2;
     border-radius: 13px;
-    height: 380px;
+    height: 400px;
+  }
+  .core {
+    width: 96%;
+    margin: 10px auto;
+    .topscroll {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .phonetitle {
+        h4 {
+          font-size: 24px;
+        }
+        p {
+          margin-top: 7px;
+          font-size: 16px;
+          color: rgb(155, 153, 153);
+        }
+      }
+      .view {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f2f3f5;
+        width: 120px;
+        height: 40px;
+        border-radius: 10px;
+        gap: 7px;
+
+        margin-top: 10px;
+        a {
+          text-decoration: none;
+          color: black;
+          font-size: 13px;
+        }
+      }
+    }
+    .bottomscroll {
+      margin-top: 40px;
+    }
   }
 }
 .phoneSwiper {
