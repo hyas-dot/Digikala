@@ -1,0 +1,43 @@
+@font-face {
+  font-family: digikala;
+  src: url(/public/font/digikala-variable.16j_2qc1xkb87.woff2);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: digikala;
+}
+.root {
+  width: 87%;
+  margin: 17px auto;
+  .phonescroll {
+    margin-top: 20px;
+    border: 1px solid #e0e0e2;
+    border-radius: 13px;
+    height: 380px;
+  }
+}
+.phoneSwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.phoneSwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid hsl(240, 4%, 87%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.phoneSwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
